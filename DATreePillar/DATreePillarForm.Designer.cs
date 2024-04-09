@@ -71,11 +71,11 @@
             // AddColumnsButton
             // 
             AddColumnsButton.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            AddColumnsButton.Location = new Point(157, 35);
+            AddColumnsButton.Location = new Point(137, 35);
             AddColumnsButton.Name = "AddColumnsButton";
-            AddColumnsButton.Size = new Size(631, 23);
+            AddColumnsButton.Size = new Size(651, 23);
             AddColumnsButton.TabIndex = 3;
-            AddColumnsButton.Text = "Add Columns To Trees";
+            AddColumnsButton.Text = "Add Walls To Trees";
             AddColumnsButton.UseVisualStyleBackColor = true;
             AddColumnsButton.Click += AddColumnsButton_Click;
             // 
@@ -94,15 +94,15 @@
             ScaleLabel.AutoSize = true;
             ScaleLabel.Location = new Point(12, 39);
             ScaleLabel.Name = "ScaleLabel";
-            ScaleLabel.Size = new Size(83, 15);
+            ScaleLabel.Size = new Size(63, 15);
             ScaleLabel.TabIndex = 5;
-            ScaleLabel.Text = "Column Scale:";
+            ScaleLabel.Text = "Wall Scale:";
             ScaleLabel.TextAlign = ContentAlignment.TopRight;
             // 
             // ScaleSpinner
             // 
             ScaleSpinner.DecimalPlaces = 2;
-            ScaleSpinner.Location = new Point(101, 35);
+            ScaleSpinner.Location = new Point(81, 35);
             ScaleSpinner.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
             ScaleSpinner.Minimum = new decimal(new int[] { 1, 0, 0, 131072 });
             ScaleSpinner.Name = "ScaleSpinner";
@@ -124,7 +124,7 @@
             Controls.Add(InputFileLabel);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "DATreePillarForm";
-            Text = "DA Tree Columnizer";
+            Text = "DA Tree Wall Tool";
             ((System.ComponentModel.ISupportInitialize)ScaleSpinner).EndInit();
             ResumeLayout(false);
             PerformLayout();

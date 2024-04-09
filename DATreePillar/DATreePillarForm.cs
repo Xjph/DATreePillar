@@ -98,7 +98,7 @@ namespace DATreePillar
                         }
                     });
 
-                    SetOutput($"Finished, columns added to {trees.Count:n0} trees.");
+                    SetOutput($"Finished, walls added to {trees.Count:n0} trees.");
                 }
                 catch (Exception ex)
                 {
